@@ -11,13 +11,13 @@ O objetivo deste repositório é consolidar os conhecimentos adquiridos ao longo
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/marloikhodi/js-ts-udemy.git
    ```
 
 2. Navegue até o diretório desejado:
 
    ```bash
-   cd nome-do-repositorio/01-fundamentos-js
+   cd js-ts-udemy
    ```
 
 3. Abra os arquivos em seu editor de texto favorito (ex.: VS Code).
