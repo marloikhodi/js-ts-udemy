@@ -13,3 +13,4 @@ numberone = Number(numberone)
 numbertwo = Number(numbertwo)
 
 alert(`O resultado da sua conta foi: ${numberone + numbertwo}`)
+alert(`O resultado da sua conta foi: ${numberone * numbertwo}`)
