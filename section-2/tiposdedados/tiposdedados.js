@@ -43,6 +43,7 @@ console.log(strings.slice(0, 2))
 console.log(strings.slice(-6, -1))
 
 console.log(strings.split(' ', 2))
+console.log(strings.split(' ', 3))
 
 console.log(strings.toUpperCase())
 console.log(strings.toLowerCase())
