@@ -52,5 +52,6 @@ console.log(contagem)
 
 const num = 40
 const str = Number('5')
+const strg = Number('6')
 
 console.log(num + str)
