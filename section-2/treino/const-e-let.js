@@ -12,7 +12,7 @@ anoNascimento = 2024 - idade
 console.log(`${nome} ${sobrenome} tem ${idade} anos e pesa ${peso} kg`)
 console.log(`Tem ${alturaEmM} seu IMC é de ${imc}`)
 console.log(`${nome} nasceu em ${anoNascimento}`)
-
+console.log(`${nome} nasceu em ${anoNascimento} e seu IMC é de ${imc}`)
 
 
 
