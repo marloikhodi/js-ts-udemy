@@ -1,8 +1,9 @@
-const numero = Number(prompt('Digite um numero'))
-const numeroTitulo = document.getElementsByClassName('numero-titulo')
+const numeroPrompt = prompt('Digite um numero')
+const numeroTitulo = document.getElementById('numero-titulo')
 const texto = document.getElementById('texto')
+const numero = Number(numeroPrompt)
 
-numeroTitulo.innerHTML = numero
+numeroTitulo.innerHTML = numeroPrompt
 texto.innerHTML = `
 <p>Raiz quadrada: ${Math.sqrt(numero)}</p>
 <p><span></span> é inteiro? ${Number.isInteger(numero)}</p>
