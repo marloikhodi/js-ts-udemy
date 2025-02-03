@@ -1,8 +1,8 @@
-function meuEscopo() {
+function meuEscopo() { //removendo o codigo do escopo global
     const form = document.querySelector('.form')
     const resultado = document.querySelector('.resultado')
 
-    const pessoas = []
+    const pessoas = [] //setando o array que recebera os objetos 
 
     // form.onsubmit = function (evento) {
     //     evento.preventDefault();
@@ -19,14 +19,14 @@ function meuEscopo() {
         const peso = form.querySelector('.peso')
         const altura = form.querySelector('.altura')
 
-        pessoas.push({
+        pessoas.push({ //formaçao do objeto com os valores do html
             nome: nome.value,
             sobrenome: sobrenome.value,
             peso: peso.value,
             altura: altura.value
         })
 
-        console.log(pessoas)
+        console.log(pessoas) //print do array formado junto com os objetos 
 
         resultado.innerHTML += `<p>Nome: ${nome.value} ${sobrenome.value} <br> Peso: ${peso.value} <br> Altura: ${altura.value}</p>`
     }
