@@ -1,0 +1,9 @@
+/*
+documento criado com o proposito de informar as extensoes usadaas dentro do vscode para o curso
+
+Code Runner
+Code Time
+
+Dracula Theme
+Material Icons Theme
+*/
