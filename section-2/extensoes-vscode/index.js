@@ -7,5 +7,3 @@ Code Time
 Dracula Theme
 Material Icons Theme
 */
-
-//day off
