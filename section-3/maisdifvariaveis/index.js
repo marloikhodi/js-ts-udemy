@@ -3,7 +3,7 @@ let num = 2
 num = 3
 
 //let tem escopo de bloco {...bloco}`
-//var tem escopo de função 
+//var tem escopo de função (quando inserido, sempre esta sendo alterado)
 
 const verdadeira = true
 let nome = 'marlo' // criando 
