@@ -35,3 +35,5 @@ falaOi()
 
 console.log(varDepois) //*undefined, a engine do JS eleva os VAR e FUNCTION sendo carregado antes do script, e quando solicitado adiciona valor, por esse motivo o return de undefined
 var varDepois = 'xisde'
+
+//comentario do sem tempo 
