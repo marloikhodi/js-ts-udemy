@@ -10,7 +10,7 @@ const [primeiroNumero, segundoNumero, terceiroNumero, ...resto] = numeros //cada
 // console.log(resto)
 
 const [esseSim1, , esseSim2, , esseSim3, ...restante] = ['sim', 'nao', 'sim', 'nao', 'sim', 'nao']
-// console.log(esseSim1, esseSim2, esseSim3, restante)
+// console.log(esseSim1, esseSim2, esseSim3, restante) //o restante retorna apenas o ultimo nao
 
 const numerosIndices = [
     [1, 2, 3],
