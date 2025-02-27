@@ -19,4 +19,4 @@ console.log(`Moro na ${rua}, número ${numero}!`)
 console.log(endereco, `\n`)
 
 const { idade, ...resto } = pessoa
-console.log(idade, resto)
+console.log(idade, resto) //o resto pega todas as const que nao foram utilizadas
