@@ -14,5 +14,9 @@ const pessoa = {
 const { nome = `placeholder`, sobrenome, idade: age } = pessoa
 console.log(`Me chamo ${nome} ${sobrenome} e tenho ${age} anos de idade!`)
 
-const { endereco: { rua, numero } } = pessoa
+const { endereco: { rua, numero }, endereco } = pessoa
 console.log(`Moro na ${rua}, número ${numero}!`)
+console.log(endereco, `\n`)
+
+const { idade, ...resto } = pessoa
+console.log(idade, resto)
