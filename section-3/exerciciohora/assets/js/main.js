@@ -34,3 +34,6 @@ h1.innerHTML = criaData(data);
 //     timeStyle: "short",
 // };
 // h1.innerHTML = data.toLocaleDateString("pt-BR", { dateStyle: "full" });
+
+//teste
+//teste2
