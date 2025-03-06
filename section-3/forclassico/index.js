@@ -1,5 +1,13 @@
 const numeros = [1, 2, 3, 4, 5]
 
-for (n in numeros) {
-    console.log(numeros[n])
+for (n in numeros) { //feito com padrao em python
+    console.log(`numeros ${numeros[n]}`)
+}
+//i = index, utiliado por padrao no for
+for (let i = 0; i <= 5; i++) { //cada ; conta como operaçao diferente
+    console.log(i)
+}
+
+for (let i = 500; i >= 5; i -= 10) {
+    console.log(i)
 }
