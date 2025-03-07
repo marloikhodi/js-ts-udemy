@@ -22,3 +22,9 @@ for (let i = 0; i < frutas.length; i++) {
 for (i in frutas) {
     console.log(`Possuo a venda: ${i} ${frutas[i]}`)
 }
+
+while (true) {
+    console.log("oi")
+    return
+
+}
