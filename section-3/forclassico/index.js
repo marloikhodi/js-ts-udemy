@@ -23,8 +23,13 @@ for (i in frutas) {
     console.log(`Possuo a venda: ${i} ${frutas[i]}`)
 }
 
-while (true) {
-    console.log("oi")
-    return
-
-}
+// while (true) {
+//     console.log("oi")
+//     return
+// }
+const elementos = [
+    { tag: 'p', texto: 'frase 1' },
+    { tag: 'div', texto: 'frase 2' },
+    { tag: 'footer', texto: 'frase 3' },
+    { tag: 'section', texto: 'frase 4' },
+]
