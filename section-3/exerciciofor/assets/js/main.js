@@ -12,7 +12,7 @@ for (let i = 0; i < elementos.length; i++) {
     let { tag, texto } = elementos[i]
     let tagCriada = document.createElement(tag)
     let textoCriado = document.createTextNode(texto)
-    tagCriada.appendChild(textoCriado)
+    tagCriada.appendChild(textoCriado) //appendChild, transforma o item em () como filho do pre . com isso, é criado o HTML
     div.appendChild(tagCriada)
 }
 
