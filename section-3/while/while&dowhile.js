@@ -17,8 +17,6 @@ do {
     console.log(rand) //o dowhile primeiro executa o codigo, apos isso, realiza a veriifcaçao da condiçao
 } while (rand !== 10);
 
-
-
 // let num = 0
 
 // while (num <= 10) {
