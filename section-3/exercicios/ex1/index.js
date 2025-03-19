@@ -10,8 +10,9 @@ if (num1 > num2) {
 ///
 
 function high(x, y) {
-    x === y ? console.log("Os numeeros são iguais") : null
-    x > y ? console.log(x) : console.log(y)
+    return x > y ? x : y //para dar return com ternario, deve ser hamado no começo 
 }
+console.log(high(19, 1900))
 
-high(20, 20)
+const high2 = (x, y) => x > y ? x : y
+console.log(high2(19, 2000))
