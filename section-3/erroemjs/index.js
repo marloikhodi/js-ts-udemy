@@ -19,4 +19,5 @@ try {
     console.log(soma('x', 2))
 } catch (error) {
     console.log(error) //captura e exibe a mensagem de erro conforme o throw
+    console.log('de preferencia, exiba algo melhor pro usuário!')
 }
