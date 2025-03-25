@@ -21,3 +21,14 @@ try {
     console.log(error) //captura e exibe a mensagem de erro conforme o throw
     console.log('de preferencia, exiba algo melhor pro usuário!')
 }
+
+//outro exemplo, com o finally{}
+try {
+    console.log('abre um programa')
+    console.log('utiliza o programa')
+    console.log('fecha o programa')
+} catch (err) {
+    console.log('tratamento de erro')
+} finally {
+    console.log('FINALLY: Executado sempre após') //util quando abre um programa, caso de algum problema, ele é fechado pelo finally
+}
