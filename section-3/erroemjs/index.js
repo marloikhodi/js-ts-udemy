@@ -32,3 +32,22 @@ try {
 } finally {
     console.log('FINALLY: Executado sempre após') //util quando abre um programa, caso de algum problema, ele é fechado pelo finally
 }
+
+function retornaHora(data) {
+    if (data && !(data instanceof Date)) {
+        throw new TypeError('Esperando instancia de Date')
+    }
+
+    if (!data) {
+        data = new Date()
+    }
+    return data.toLocaleTimeString('pt-BR')
+}
+try {
+    const hora = retornaHora()
+    console.log(hora)
+} catch (err) {
+    console.log(err)
+} finally {
+    console.log('Termino da hora')
+}
