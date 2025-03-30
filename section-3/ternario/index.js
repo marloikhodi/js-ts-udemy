@@ -10,5 +10,6 @@ if (pontuacaoUsuario >= 1000) {
     console.log('Usuário normal')
 }
 
+//
 //ambas realizam a mesma função
 //(condição ou true/false) / (se true para condição realiza a ação aqui) : (se false para a condição, realiza a ação aqui)
