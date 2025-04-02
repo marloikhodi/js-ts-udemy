@@ -20,3 +20,41 @@ function executaFuncao(funcao) {
 }
 
 executaFuncao(souUmDado)
+
+//Arrow function = seria uma function expression, porem mais curto 
+const funcaoArrow = () => { console.log('Sou uma arrow function') }
+executaFuncao(funcaoArrow)
+
+//Como objeto
+
+const obj = {
+    falar: function () { //nao tem a necessidade de : function
+        console.log('Estou falando...')
+    },
+    ouvir() { //pode ficar assim
+        console.log('Estou ouvindo.')
+    }
+}
+
+obj.falar()
+obj.ouvir()
+
+
+
+
+
+
+
+
+// let valor1 = function () {
+//     return Number(1)
+// }
+// let valor2 = function () {
+//     return Number(1)
+// }
+
+// function soma(x, y) {
+//     console.log(x + y)
+// }
+
+// soma(valor1(), valor2())
