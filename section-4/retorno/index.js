@@ -12,6 +12,7 @@ console.log(secondPerson, typeof secondPerson)
 
 
 function criaMultiplicador(mutl) {
+  // mult está dentro do escopo da "criaMultiplicador"
   return function (n) {
     return n * mutl
   }
