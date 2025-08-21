@@ -33,6 +33,8 @@
 const nome = 'Jose Alberto Carlos Silva Pereira'
 const nomes = nome.split(' ')
 console.log(nomes)
+const nome2 = nomes.join(' ')
+console.log(nome2)
 
 for (i = 0; i < nomes.length; i++) {
     console.log(nomes[i])
