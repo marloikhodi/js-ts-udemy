@@ -16,7 +16,6 @@ function conta(a, b = 2, c = 3) {
 
 conta(1, undefined, 4) // retorna 7, sendo 1 + 2 + 4 pois B sendo undefined pega o valor padrao
 
-
 function objeto({ nome, sobrenome, idade }) { //desistruturação de objeto
     console.log(nome, sobrenome, idade)
 }
