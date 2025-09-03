@@ -28,9 +28,18 @@ const camiseta = new Camiseta("Regata", 8, "Preta");
 camiseta.aumento(10);
 console.log(camiseta);
 
-function Caneca(nome, preco, material) {
+function Caneca(nome, preco, material, estoque) {
   Produto.call(this, nome, preco);
   this.material = material;
+  Object.defineProperty(this, "estoque", {
+    enumerable: true,
+    configurable: false,
+    get: () => estoque,
+    set: (valor) => {
+      if (typeof valor !== "number") return;
+      estoque = valor;
+    },
+  });
 }
 
 Caneca.prototype = Object.create(Produto.prototype);
@@ -38,7 +47,15 @@ Caneca.prototype.constructor = Caneca;
 Caneca.prototype.validaMaterial = function (material) {
   this.material !== material ? console.log("Material Indisponivel") : console.log("Material Disponivel");
 };
+Caneca.prototype.validaEstoque = function () {
+  this.estoque <= 0
+    ? console.log("Estoque Zerado")
+    : this.estoque <= 3
+    ? console.log("Estoque de risco")
+    : console.log("Estoque Ok");
+};
 
-const caneca = new Caneca("Xicara", 10, "Vidro");
+const caneca = new Caneca("Xicara", 10, "Vidro", 0);
 caneca.validaMaterial("Vidro");
+caneca.validaEstoque();
 console.log(caneca);
