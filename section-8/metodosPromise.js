@@ -23,6 +23,6 @@ const promises = [
 ];
 
 Promise.all(promises).then((valor) => {
-  // .all vai realizar todas as Promises antes de retornar com o valor
+  // .all vai realizar todas as Promises antes de retornar com o valor, *em formato de array
   console.log(valor);
 });
