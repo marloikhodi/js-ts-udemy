@@ -28,7 +28,7 @@ aguarde("Primeira Frase", rand(1, 3)) //passado pelo resolve, cai no .then
     console.log(resposta);
   })
   .catch((e) => {
-    // caso de erro, cai diretamente no catch
+    // caso de erro, cai diretamente no catch!
     console.log("Erro:", e);
   });
 
