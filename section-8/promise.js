@@ -33,3 +33,4 @@ aguarde("Primeira Frase", rand(1, 3)) //passado pelo resolve, cai no .then
   });
 
 console.log("Isso será exibido antes das promisses");
+//test
